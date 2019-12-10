@@ -1,10 +1,9 @@
 # tFPDF
-**This repository is only made for cloning official tFPDF releases which are available at: 
-http://fpdf.org/en/script/script92.php THERE WILL BE NO DEVELOPMENT IN THIS REPOSITORY!**
+**This repository is an unoffical version of tFDPF, official tFPDF releases are available at: 
+http://fpdf.org/en/script/script92.php**
 
-_The only change in this version is that the require_once() calls to font/unifont/ttfonts.php
-are commented and resolved through the composer autoloader. The demo ex.php was changed
-accordingly, too._
+_The changea in this version are an attempt to incorporate FPDF changes back to tFPDF, current 
+as of 1.82.  It also adds OopenSans fonts to the unifont directory_
 
 tFPDF accepts UTF-8 encoded text. It embeds font subsets allowing small PDF files.
 
@@ -20,22 +19,6 @@ All tFPDF requires is a .ttf TrueType font file. The file should be placed in th
 
 Pass a fourth parameter as true when calling AddFont(), and use utf-8 encoded text 
 when using Write() etc.
-
-## Installation with [Composer](https://packagist.org/packages/setasign/tfpdf)
-
-If you're using Composer to manage dependencies, you can use
-
-    $ composer require setasign/tfpdf:1.25
-
-or you can include the following in your composer.json file:
-
-```json
-{
-    "require": {
-        "setasign/tfpdf": "1.25"
-    }
-}
-```
 
 ## Usage
 

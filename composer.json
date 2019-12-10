@@ -1,8 +1,8 @@
 {
-    "name": "setasign/tfpdf",
-    "version": "1.25",
-    "homepage": "http://fpdf.org/en/script/script92.php",
-    "description": "This class is a modified version of FPDF that adds UTF-8 support. It is based on FPDF 1.7.",
+    "name": "spuds/tfpdf",
+    "version": "1.28",
+    "homepage": "https://github.com/Spuds/tFPDF",
+    "description": "This is an unofficial modified version of tFPDF that adds changes from the current FDPF",
     "type": "library",
     "keywords": ["pdf", "fpdf", "unicode", "tfpdf"],
     "license": "LGPL-2.1",
@@ -22,5 +22,9 @@
             "tfpdf.php",
             "font/unifont/ttfonts.php"
         ]
-    }
+    },
+  "require": {
+    "ext-mbstring": "*",
+    "ext-zlib": "*"
+  }
 }
