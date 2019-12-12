@@ -2,8 +2,8 @@
 **This repository is an unoffical version of tFDPF, official tFPDF releases are available at: 
 http://fpdf.org/en/script/script92.php**
 
-_The changea in this version are an attempt to incorporate FPDF changes back to tFPDF, current 
-as of 1.82.  It also adds OopenSans fonts to the unifont directory_
+_The changes in this version merge the current FPDF version (as of 1.82) back in to tFPDF.  It also adds 
+OopenSans fonts to the unifont directory_
 
 tFPDF accepts UTF-8 encoded text. It embeds font subsets allowing small PDF files.
 
